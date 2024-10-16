@@ -1,0 +1,54 @@
+
+
+
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background: url('./asserts/2422.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .content {
+    background: rgba(210, 210, 210, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #023a88e0;
+    font-weight: 900 ;
+  }
+  
+
+.homepage h1 {
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(197, 49, 16);
+    font-size: 2.5em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage h1:hover {
+    text-shadow: 0 1px 0 #020202, 0 2px 0 #010101,
+        0 3px 0 #060606, 0 4px 0 #050404,
+        0 5px 0 #0e0c0c, 0 6px 0 #0c0b0b,
+        0 7px 0 #070505, 0 8px 0 #070606,
+        0 9px 0 #ccc, 0 10px 0 #ccc,
+        0 11px 0 #ccc, 0 12px 0 #ccc,
+        0 20px 30px rgba(0, 0, 0, 0.5);
+}
